@@ -33,7 +33,7 @@ def load_router_config():
         with open(CONFIG_FILE, 'r') as f:
             return json.load(f)
     except Exception as e:
-        print(f"❌ Error loading router config: {e}")
+        print(f"Error loading router config: {e}")
         return None
 
 def main():
@@ -42,7 +42,7 @@ def main():
     # 1. Load Config
     config = load_router_config()
     if not config:
-        print("❌ Config missing. Exiting.")
+        print("Config missing. Exiting.")
         sys.exit(1)
         
     ssid = config.get("ssid")
@@ -54,7 +54,6 @@ def main():
     try:
         # Open USB Serial Connection
         ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
-        # Wait for Arduino/ESP to reset (common behavior when serial opens)
         time.sleep(2) 
         
         # 2. Send Configuration
@@ -68,7 +67,7 @@ def main():
         ser.write(b"cmd:START_MONITOR\n")
         
         # 4. Listen Loop
-        print("   ✅ System Active. Listening for alerts...")
+        print("  System Active. Listening for alerts...")
         
         while True:
             if ser.in_waiting > 0:
@@ -82,7 +81,7 @@ def main():
                             attack_type = payload[0]
                             extra_info = payload[1] if len(payload) > 1 else "N/A"
                             
-                            print(f"\n🚨 WIRELESS ATTACK: {attack_type} ({extra_info})")
+                            print(f"\n WIRELESS ATTACK: {attack_type} ({extra_info})")
                             
                             alerter.trigger_alert(
                                 f"Wireless_{attack_type}",
@@ -98,7 +97,7 @@ def main():
                     pass
 
     except serial.SerialException as e:
-        print(f"❌ Serial Error: Is the ESP plugged in? ({e})")
+        print(f"Serial Error: Is the ESP plugged in? ({e})")
         print(f"   Check the port name: ls /dev/tty*")
     except KeyboardInterrupt:
         try:
