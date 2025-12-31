@@ -151,19 +151,12 @@ def save_static(data: dict) -> None:
 
 def initial_scan() -> None:
     data = load_static()
-    # We populate the table but don't skip the scan if we want to be sure
-    # However, to avoid duplicate code, we can just let the periodic scanner handle it
-    # But usually, initial scan populates the Whitelist (Static.json).
     if data.get("allowed_devices"):
         logging.info(f"Loaded {len(data['allowed_devices'])} trusted devices from Static.json")
-        # Populate arp_table from static list immediately
         with lock:
             for d in data['allowed_devices']:
                 arp_table[d['ip']] = d['mac']
                 arp_seen[d['ip']] = now()
-    
-    # We will let the periodic scanner handle the actual network mapping to keep logic simple
-
 def new_device_seen(ip: str, mac: str) -> None:
     mac_norm = nmac(mac)
     if not mac_norm:
@@ -208,8 +201,6 @@ def active_map_scan():
     """Scans the entire subnet to update the device list."""
     prefix = ".".join(ROUTER_IP.split(".")[:-1]) + ".0/24"
     try:
-        # logging.info("Running periodic network scan...") 
-        # Commented out logging to avoid spamming the console every 30s
         pkt = Ether(dst="ff:ff:ff:ff:ff:ff") / ARP(pdst=prefix)
         ans, _ = srp(pkt, timeout=2, verbose=0, iface="eth0")
         
@@ -227,7 +218,6 @@ def active_map_scan():
                 count += 1
         
         save_device_logs()
-        # logging.info(f"Scan complete. {count} devices active.")
         
     except Exception as e:
         logging.error(f"Periodic scan failed: {e}")
@@ -385,7 +375,7 @@ def pkt_handler(p) -> None:
             requested = key in req_map and (cur - req_map[key] < REQUEST_TIMEOUT)
             if not requested:
                 if known_mac is None:
-                    if s_ip == ROUTER_IP: pass # Dont trust blind router updates
+                    if s_ip == ROUTER_IP: pass 
                     else:
                         arp_table[s_ip] = s_mac
                         arp_seen[s_ip] = cur
