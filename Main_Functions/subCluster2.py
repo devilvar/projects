@@ -16,7 +16,7 @@ import DNS_IP_Spoofing
 import policy_violation
 import c2_botnet
 import NTP_attack
-import IAM   # ✅ ADDED
+import IAM  
 
 IFACE = "eth0"
 
@@ -28,7 +28,7 @@ SPOOF_QUEUE_SIZE = 1000
 POLICY_QUEUE_SIZE = 1000
 C2_QUEUE_SIZE = 1000
 NTP_QUEUE_SIZE = 1000
-IAM_QUEUE_SIZE = 1000   # ✅ ADDED
+IAM_QUEUE_SIZE = 1000   
 
 DNS_WORKERS = 1
 DHCP_WORKERS = 1
@@ -36,7 +36,7 @@ SPOOF_WORKERS = 1
 POLICY_WORKERS = 1
 C2_WORKERS = 1
 NTP_WORKERS = 1
-IAM_WORKERS = 1         # ✅ ADDED
+IAM_WORKERS = 1        
 
 dns_queue = Queue(maxsize=DNS_QUEUE_SIZE)
 dhcp_queue = Queue(maxsize=DHCP_QUEUE_SIZE)
@@ -44,7 +44,7 @@ spoof_queue = Queue(maxsize=SPOOF_QUEUE_SIZE)
 policy_queue = Queue(maxsize=POLICY_QUEUE_SIZE)
 c2_queue = Queue(maxsize=C2_QUEUE_SIZE)
 ntp_queue = Queue(maxsize=NTP_QUEUE_SIZE)
-iam_queue = Queue(maxsize=IAM_QUEUE_SIZE)   # ✅ ADDED
+iam_queue = Queue(maxsize=IAM_QUEUE_SIZE)   
 
 # ================= WORKERS =================
 
@@ -143,7 +143,7 @@ def packet_handler(pkt):
         policy_queue,
         c2_queue,
         ntp_queue,
-        iam_queue,   # ✅ ADDED
+        iam_queue, 
     ):
         try:
             q.put_nowait(pkt)
@@ -161,7 +161,7 @@ def main():
     print(" - Policy Violation Detection")
     print(" - C2 Botnet Beaconing Detection")
     print(" - NTP Amplification Detection")
-    print(" - IAM / User & Web Policy Engine")  # ✅ ADDED
+    print(" - IAM / User & Web Policy Engine") 
     print("-" * 60)
 
     workers = []
@@ -173,7 +173,7 @@ def main():
         (policy_worker, "POLICY", POLICY_WORKERS),
         (c2_worker, "C2", C2_WORKERS),
         (ntp_worker, "NTP", NTP_WORKERS),
-        (iam_worker, "IAM", IAM_WORKERS),   # ✅ ADDED
+        (iam_worker, "IAM", IAM_WORKERS),   
     ]:
         for i in range(count):
             t = Thread(
@@ -199,7 +199,7 @@ def main():
             (policy_queue, POLICY_WORKERS),
             (c2_queue, C2_WORKERS),
             (ntp_queue, NTP_WORKERS),
-            (iam_queue, IAM_WORKERS),   # ✅ ADDED
+            (iam_queue, IAM_WORKERS), 
         ]:
             for _ in range(n):
                 q.put(None)
