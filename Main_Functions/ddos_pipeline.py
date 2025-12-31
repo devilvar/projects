@@ -621,13 +621,13 @@ def process_ddos_packets(packets, rolling_pps_state):
         label6 = m6_g[2].inverse_transform(pred6)[0]
 
         if label6 != "Normal":
-            print(f"🕵️Reconnaissance Detected: {label6}")
+            print(f"Reconnaissance Detected: {label6}")
             send_alert(label6, f6, type_desc="Reconnaissance")
             return label6, rolling_pps_state
         else:
             print("Traffic is Normal")
 
     except Exception as e:
-        print(f"⚠️Recon model error: {e}")
+        print(f"Recon model error: {e}")
 
     return "Normal", rolling_pps_state
