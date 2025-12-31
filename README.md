@@ -68,3 +68,15 @@ The system integrates with hardware components (like an I2C LCD display) to show
 
 ### ⚖️ Disclaimer
 *This tool is for educational purposes and for protecting your own network. Using active response mechanisms (like deauthentication) on networks you do not own is illegal. The author is not responsible for misuse.*
+
+## 🤝 Deployment & Contact
+
+1.  **Deployment Configuration:**
+    Due to the hardware-specific nature of this project (requiring specific Raspberry Pi GPIO setups, network interface bindings, and environment variables), a generic deployment script is not included in the public repository.
+
+2.  **Request Implementation Guide:**
+    If you wish to deploy this NIDS on your own hardware, or if you are a recruiter/developer interested in the full implementation details and circuit diagrams, I can provide the complete deployment documentation upon request.
+
+3.  **Get in Touch:**
+    For deployment instructions, collaboration inquiries, or full project details, please contact me directly at:
+    📧 **varunkumarvenigalla@gmail.com**
