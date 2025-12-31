@@ -61,7 +61,7 @@ def flush_pcap():
 # ------------------------------------------------------------
 
 if __name__ == "__main__":
-    print("🚀 Full Packet Capture Started")
+    print("Full Packet Capture Started")
     print(f"Interface : eth0")
     print(f"PCAP File : {PCAP_FILE}")
     print("Capturing ALL packets (no filters)...")
@@ -77,7 +77,7 @@ if __name__ == "__main__":
             prn=process_packet
         )
     except KeyboardInterrupt:
-        print("\n🛑 Capture stopped by user")
+        print("\nCapture stopped by user")
 
     finally:
         # Final flush
@@ -86,5 +86,5 @@ if __name__ == "__main__":
                 scapy.wrpcap(PCAP_FILE, packet_buffer, append=True)
                 packet_buffer.clear()
 
-        print("✅ PCAP saved successfully")
-        print(f"📁 File: {PCAP_FILE}")
+        print("PCAP saved successfully")
+        print(f"File: {PCAP_FILE}")
