@@ -1,0 +1,3202 @@
+[
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:34:18",
+      "arp_count": 5638,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5633,
+      "broadcast_ratio": 0.999113160695282,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.000177367860943597,
+      "mean_interval": 0.001741719833815248,
+      "variance_interval": 3.638211432037507e-05,
+      "interval_count": 5637,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:35:30",
+      "arp_count": 5641,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5638,
+      "broadcast_ratio": 0.9994681794008154,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017409400737031977,
+      "variance_interval": 2.8972785507813396e-05,
+      "interval_count": 5640,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:04:09",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.904489278793335,
+      "variance_interval": 8.43390586698257,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:11:16",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.2789748907089233,
+      "variance_interval": 1.945988610600736,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:35:18",
+      "arp_count": 5641,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5638,
+      "broadcast_ratio": 0.9994681794008154,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017406111490641926,
+      "variance_interval": 3.3962678625669945e-05,
+      "interval_count": 5640,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:03:17",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:05:00",
+      "arp_count": 2,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.006236076354980469,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:07:01",
+      "arp_count": 2,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0009138584136962891,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:18:52",
+      "arp_count": 5750,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5748,
+      "broadcast_ratio": 0.9996521739130435,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.001707256970394796,
+      "variance_interval": 4.163518126161034e-06,
+      "interval_count": 5749,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:34:30",
+      "arp_count": 5613,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5606,
+      "broadcast_ratio": 0.9987528950650276,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003563156957063959,
+      "mean_interval": 0.0017492076115190175,
+      "variance_interval": 3.413315634293476e-05,
+      "interval_count": 5612,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:35:41",
+      "arp_count": 5641,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5637,
+      "broadcast_ratio": 0.9992909058677539,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017578721891903708,
+      "variance_interval": 2.348531108323083e-05,
+      "interval_count": 5640,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:11:26",
+      "arp_count": 6,
+      "unique_senders": 3,
+      "unique_targets": 5,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.9241992950439453,
+      "variance_interval": 1.9782876763368762,
+      "interval_count": 5,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:22:01",
+      "arp_count": 5451,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5446,
+      "broadcast_ratio": 0.9990827371124564,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.000183452577508714,
+      "mean_interval": 0.0018279432156764039,
+      "variance_interval": 1.5041830646063788e-05,
+      "interval_count": 5450,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:06:41",
+      "arp_count": 2,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0008776187896728516,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:15:43",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.748943567276001,
+      "variance_interval": 0.2896610733128379,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:02:47",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.7682697772979736,
+      "variance_interval": 1.1774022439449634,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:20:27",
+      "arp_count": 5622,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 5622,
+      "broadcast_ratio": 1.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017464780612382956,
+      "variance_interval": 3.404474280161867e-05,
+      "interval_count": 5621,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:09:14",
+      "arp_count": 6,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.7386730194091797,
+      "variance_interval": 0.38099308147508054,
+      "interval_count": 5,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:22:37",
+      "arp_count": 5629,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5623,
+      "broadcast_ratio": 0.9989340913128442,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003553028957186001,
+      "mean_interval": 0.0017514899849637485,
+      "variance_interval": 1.1383890556402462e-05,
+      "interval_count": 5628,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:32:54",
+      "arp_count": 5530,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5526,
+      "broadcast_ratio": 0.9992766726943942,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017755851324739971,
+      "variance_interval": 3.78517977320153e-05,
+      "interval_count": 5529,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:35:53",
+      "arp_count": 5658,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5654,
+      "broadcast_ratio": 0.999293036408625,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017674089784376105,
+      "mean_interval": 0.001735663401357736,
+      "variance_interval": 3.088569728030687e-05,
+      "interval_count": 5657,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:01:03",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:11:37",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.7909842729568481,
+      "variance_interval": 0.6212085349966543,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:33:31",
+      "arp_count": 5588,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5584,
+      "broadcast_ratio": 0.9992841803865425,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017571730073458055,
+      "variance_interval": 3.754387559305379e-05,
+      "interval_count": 5587,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:31:32",
+      "arp_count": 5527,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5523,
+      "broadcast_ratio": 0.9992762800796092,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003618599601954044,
+      "mean_interval": 0.001692691187560019,
+      "variance_interval": 5.451398005640216e-08,
+      "interval_count": 5526,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:33:06",
+      "arp_count": 5627,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5618,
+      "broadcast_ratio": 0.9984005686866891,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017771459036786921,
+      "mean_interval": 0.0017448554376330275,
+      "variance_interval": 3.785091863072988e-05,
+      "interval_count": 5626,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:24:36",
+      "arp_count": 5521,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5516,
+      "broadcast_ratio": 0.9990943669625068,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00018112660749864155,
+      "mean_interval": 0.0016943528600361036,
+      "variance_interval": 8.88611311714426e-08,
+      "interval_count": 5520,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:23:01",
+      "arp_count": 5584,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5581,
+      "broadcast_ratio": 0.9994627507163324,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017578052658772524,
+      "variance_interval": 1.7505228054592937e-05,
+      "interval_count": 5583,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:25:12",
+      "arp_count": 5540,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 5535,
+      "broadcast_ratio": 0.9990974729241877,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017718843097483603,
+      "variance_interval": 3.835653432534216e-05,
+      "interval_count": 5539,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:13:19",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:05:10",
+      "arp_count": 2,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.00035190582275390625,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:08:54",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.26260606447855633,
+      "variance_interval": 0.1266002504722539,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:19:51",
+      "arp_count": 5599,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 5596,
+      "broadcast_ratio": 0.9994641900339346,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017533330842400075,
+      "variance_interval": 3.503042811802138e-05,
+      "interval_count": 5598,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:07:42",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:07:52",
+      "arp_count": 6,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.4613491058349609,
+      "variance_interval": 0.6380854376726028,
+      "interval_count": 5,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:32:07",
+      "arp_count": 5438,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5430,
+      "broadcast_ratio": 0.9985288709084222,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003677822728944465,
+      "mean_interval": 0.001806858644034684,
+      "variance_interval": 2.05518958821497e-05,
+      "interval_count": 5437,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:23:13",
+      "arp_count": 5593,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5590,
+      "broadcast_ratio": 0.9994636152333274,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017879492222420883,
+      "mean_interval": 0.0017552234669441147,
+      "variance_interval": 1.6654394139252377e-05,
+      "interval_count": 5592,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:12:29",
+      "arp_count": 7,
+      "unique_senders": 5,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.0278855562210083,
+      "variance_interval": 1.7190507263502421,
+      "interval_count": 6,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:13:29",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.1714131832122803,
+      "variance_interval": 2.3284976114828737,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:12:39",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.386821985244751,
+      "variance_interval": 1.8997593913859987,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:37:05",
+      "arp_count": 5645,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5643,
+      "broadcast_ratio": 0.999645704162976,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017396909053405069,
+      "variance_interval": 1.810067308497998e-05,
+      "interval_count": 5644,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:27:34",
+      "arp_count": 5601,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5594,
+      "broadcast_ratio": 0.9987502231744332,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003570790930191037,
+      "mean_interval": 0.0017572259902954102,
+      "variance_interval": 3.522362092866828e-05,
+      "interval_count": 5600,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:14:21",
+      "arp_count": 0,
+      "unique_senders": 0,
+      "unique_targets": 0,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:29:57",
+      "arp_count": 5637,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5634,
+      "broadcast_ratio": 0.9994678020223523,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017419768784213692,
+      "variance_interval": 1.970525102750926e-05,
+      "interval_count": 5636,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:33:55",
+      "arp_count": 5620,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5617,
+      "broadcast_ratio": 0.9994661921708186,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017473309844981565,
+      "variance_interval": 3.6300018841864566e-05,
+      "interval_count": 5619,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:37:40",
+      "arp_count": 5657,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5651,
+      "broadcast_ratio": 0.9989393671557363,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.00035354428142124803,
+      "mean_interval": 0.0017358937644553825,
+      "variance_interval": 1.538685404334658e-05,
+      "interval_count": 5656,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:30:09",
+      "arp_count": 5653,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5646,
+      "broadcast_ratio": 0.9987617194410048,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.0001768972227136034,
+      "mean_interval": 0.001736303254888147,
+      "variance_interval": 1.6109327901872946e-05,
+      "interval_count": 5652,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 17:59:42",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:28:57",
+      "arp_count": 5650,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5646,
+      "broadcast_ratio": 0.9992920353982301,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017380615655754198,
+      "variance_interval": 2.183470250146536e-05,
+      "interval_count": 5649,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:08:33",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.3778137564659119,
+      "variance_interval": 3.1674755848411387,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:37:28",
+      "arp_count": 5656,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5655,
+      "broadcast_ratio": 0.9998231966053748,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017369747583471918,
+      "variance_interval": 1.567461073056847e-05,
+      "interval_count": 5655,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:15:13",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:00:02",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.5002820491790771,
+      "variance_interval": 0.24930620711529627,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:23:25",
+      "arp_count": 5604,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5602,
+      "broadcast_ratio": 0.9996431120628123,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017517629147171655,
+      "variance_interval": 1.3817136976474225e-05,
+      "interval_count": 5603,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:29:09",
+      "arp_count": 5618,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5608,
+      "broadcast_ratio": 0.9982200071199715,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.000177999288002848,
+      "mean_interval": 0.0017680179102895776,
+      "variance_interval": 1.9432642616313728e-05,
+      "interval_count": 5617,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:00:32",
+      "arp_count": 7,
+      "unique_senders": 4,
+      "unique_targets": 5,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.3374908765157063,
+      "variance_interval": 3.6267076938230627,
+      "interval_count": 6,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:06:51",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.0951545238494873,
+      "variance_interval": 4.388144069152133,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:34:54",
+      "arp_count": 5656,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5653,
+      "broadcast_ratio": 0.9994695898161244,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017361093263094875,
+      "variance_interval": 2.4606996440638932e-05,
+      "interval_count": 5655,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 17:59:32",
+      "arp_count": 7,
+      "unique_senders": 4,
+      "unique_targets": 5,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.012089729309082,
+      "variance_interval": 1.4802812393463303,
+      "interval_count": 6,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:08:43",
+      "arp_count": 5,
+      "unique_senders": 4,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.4634463787078857,
+      "variance_interval": 2.7291715679369872,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:12:08",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.4505855242411296,
+      "variance_interval": 4.201789220017808,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:03:39",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 3.655848979949951,
+      "variance_interval": 13.359042219262903,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:26:58",
+      "arp_count": 5619,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5617,
+      "broadcast_ratio": 0.99964406478021,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017466374502864415,
+      "variance_interval": 3.592923381006656e-05,
+      "interval_count": 5618,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:09:34",
+      "arp_count": 9,
+      "unique_senders": 5,
+      "unique_targets": 5,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.9329740703105927,
+      "variance_interval": 1.2528790392511469,
+      "interval_count": 8,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:01:23",
+      "arp_count": 0,
+      "unique_senders": 0,
+      "unique_targets": 0,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:27:10",
+      "arp_count": 5653,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5642,
+      "broadcast_ratio": 0.9980541305501504,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.0001768972227136034,
+      "mean_interval": 0.0017370516665000404,
+      "variance_interval": 2.991419300181539e-05,
+      "interval_count": 5652,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:34:06",
+      "arp_count": 5647,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5640,
+      "broadcast_ratio": 0.9987604037542058,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003541703559412077,
+      "mean_interval": 0.0017378886794098042,
+      "variance_interval": 3.604992762119389e-05,
+      "interval_count": 5646,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:06:11",
+      "arp_count": 7,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.3286737600962322,
+      "variance_interval": 2.655585083905135,
+      "interval_count": 6,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:25:59",
+      "arp_count": 5554,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5549,
+      "broadcast_ratio": 0.9990997479294202,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00018005041411595248,
+      "mean_interval": 0.0017676079099336744,
+      "variance_interval": 3.733804897919217e-05,
+      "interval_count": 5553,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:24:00",
+      "arp_count": 5593,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5589,
+      "broadcast_ratio": 0.9992848203111032,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017879492222420883,
+      "mean_interval": 0.0017591123502483012,
+      "variance_interval": 1.1332672659018595e-05,
+      "interval_count": 5592,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:10:46",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.3083252906799316,
+      "variance_interval": 1.4704665244249024,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:22:25",
+      "arp_count": 5647,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5640,
+      "broadcast_ratio": 0.9987604037542058,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003541703559412077,
+      "mean_interval": 0.0017411044165043387,
+      "variance_interval": 1.8103913152508194e-05,
+      "interval_count": 5646,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:28:45",
+      "arp_count": 5634,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5627,
+      "broadcast_ratio": 0.998757543485978,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003549875754348598,
+      "mean_interval": 0.0017430794169207397,
+      "variance_interval": 3.306907518805294e-05,
+      "interval_count": 5633,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:16:14",
+      "arp_count": 7,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.88587752978007,
+      "variance_interval": 0.7854283658607656,
+      "interval_count": 6,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:14:52",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.5236121416091919,
+      "variance_interval": 0.3009156235788879,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:08:02",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.9117809534072876,
+      "variance_interval": 8.313853046005093,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:02:36",
+      "arp_count": 2,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0003695487976074219,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:34:42",
+      "arp_count": 5650,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5640,
+      "broadcast_ratio": 0.9982300884955753,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.00035398230088495576,
+      "mean_interval": 0.0017501423265643195,
+      "variance_interval": 2.741380605790606e-05,
+      "interval_count": 5649,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:21:14",
+      "arp_count": 5630,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5628,
+      "broadcast_ratio": 0.9996447602131439,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017445170449456645,
+      "variance_interval": 3.0086980687258356e-05,
+      "interval_count": 5629,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:13:39",
+      "arp_count": 5,
+      "unique_senders": 4,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.4112434983253479,
+      "variance_interval": 0.1952348501087151,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:25:35",
+      "arp_count": 5573,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5569,
+      "broadcast_ratio": 0.9992822537233088,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.00035887313834559486,
+      "mean_interval": 0.0017614671418928706,
+      "variance_interval": 2.722679615239412e-05,
+      "interval_count": 5572,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:05:20",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:24:24",
+      "arp_count": 5492,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5491,
+      "broadcast_ratio": 0.9998179169701383,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017626129675597532,
+      "variance_interval": 1.0169194838280326e-05,
+      "interval_count": 5491,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:15:02",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.069621443748474,
+      "variance_interval": 4.273630557090669,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:02:57",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:14:32",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.8875435590744019,
+      "variance_interval": 3.557822658692217,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:05:40",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.33333706855773926,
+      "variance_interval": 0.17195619796727138,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:31:44",
+      "arp_count": 5621,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5619,
+      "broadcast_ratio": 0.9996441914250134,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017465750517794245,
+      "variance_interval": 2.699411611828474e-05,
+      "interval_count": 5620,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:15:33",
+      "arp_count": 8,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.0513448034014021,
+      "variance_interval": 4.7499789689045375,
+      "interval_count": 7,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:14:01",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:14:11",
+      "arp_count": 7,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.7680860360463461,
+      "variance_interval": 1.493234823064155,
+      "interval_count": 6,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:25:47",
+      "arp_count": 5540,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5537,
+      "broadcast_ratio": 0.9994584837545126,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00018050541516245486,
+      "mean_interval": 0.0017722330491106784,
+      "variance_interval": 3.804454982189381e-05,
+      "interval_count": 5539,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:01:45",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:08:22",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.11583054065704346,
+      "variance_interval": 0.012215883686295115,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:36:17",
+      "arp_count": 5644,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5634,
+      "broadcast_ratio": 0.9982282069454288,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017717930545712261,
+      "mean_interval": 0.001739844603253746,
+      "variance_interval": 2.6939281642549574e-05,
+      "interval_count": 5643,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:20:03",
+      "arp_count": 5599,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 5599,
+      "broadcast_ratio": 1.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017532062939381165,
+      "variance_interval": 3.493336981182706e-05,
+      "interval_count": 5598,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:01:13",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.7077492475509644,
+      "variance_interval": 7.329917743019919,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:00:53",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.6912895441055298,
+      "variance_interval": 0.47735857956219263,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:06:01",
+      "arp_count": 2,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.00638270378112793,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:24:12",
+      "arp_count": 5611,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5608,
+      "broadcast_ratio": 0.9994653359472465,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017822135091783995,
+      "mean_interval": 0.0017498160428541867,
+      "variance_interval": 9.75411515811192e-06,
+      "interval_count": 5610,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:07:32",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.3896726965904236,
+      "variance_interval": 0.28827807804632855,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:21:02",
+      "arp_count": 5637,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5633,
+      "broadcast_ratio": 0.9992904026964697,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017739932588256165,
+      "mean_interval": 0.0017418203580624842,
+      "variance_interval": 2.817304690665516e-05,
+      "interval_count": 5636,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:03:29",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.4042126536369324,
+      "variance_interval": 0.31825973391097406,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:12:49",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.3739192485809326,
+      "variance_interval": 0.13956253507791416,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:38:16",
+      "arp_count": 5608,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 5600,
+      "broadcast_ratio": 0.9985734664764622,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017506935516950683,
+      "variance_interval": 3.906328852290333e-05,
+      "interval_count": 5607,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:33:19",
+      "arp_count": 5575,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5573,
+      "broadcast_ratio": 0.9996412556053812,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017937219730941703,
+      "mean_interval": 0.0017608028181915775,
+      "variance_interval": 3.654241397768767e-05,
+      "interval_count": 5574,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:30:21",
+      "arp_count": 5646,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5642,
+      "broadcast_ratio": 0.9992915338292596,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017387780813752707,
+      "variance_interval": 1.4881849370979317e-05,
+      "interval_count": 5645,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:12:18",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:37:17",
+      "arp_count": 5664,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 5658,
+      "broadcast_ratio": 0.9989406779661016,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017338415432498371,
+      "variance_interval": 1.8703190435979232e-05,
+      "interval_count": 5663,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:03:07",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.8246132135391235,
+      "variance_interval": 7.976136806596074,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:30:44",
+      "arp_count": 5613,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5606,
+      "broadcast_ratio": 0.9987528950650276,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003563156957063959,
+      "mean_interval": 0.0017488792974100908,
+      "variance_interval": 9.277383307912147e-06,
+      "interval_count": 5612,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:09:44",
+      "arp_count": 2,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0031571388244628906,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:36:29",
+      "arp_count": 5675,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5672,
+      "broadcast_ratio": 0.9994713656387665,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.0001762114537444934,
+      "mean_interval": 0.0017306377318781953,
+      "variance_interval": 1.63863017455316e-05,
+      "interval_count": 5674,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:26:35",
+      "arp_count": 5572,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5565,
+      "broadcast_ratio": 0.9987437185929648,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.0003589375448671931,
+      "mean_interval": 0.001767787871722836,
+      "variance_interval": 1.6132140819800845e-05,
+      "interval_count": 5571,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:36:41",
+      "arp_count": 5632,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5629,
+      "broadcast_ratio": 0.9994673295454546,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.0001775568181818182,
+      "mean_interval": 0.0017519293151514036,
+      "variance_interval": 1.5801018171098988e-05,
+      "interval_count": 5631,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:19:39",
+      "arp_count": 5595,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5594,
+      "broadcast_ratio": 0.9998212689901698,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.001753907779902273,
+      "variance_interval": 3.5464540623172536e-05,
+      "interval_count": 5594,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:38:04",
+      "arp_count": 5647,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5641,
+      "broadcast_ratio": 0.9989374889321764,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017708517797060386,
+      "mean_interval": 0.0017346101072380992,
+      "variance_interval": 9.91062910883557e-06,
+      "interval_count": 5646,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:00:22",
+      "arp_count": 0,
+      "unique_senders": 0,
+      "unique_targets": 0,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:02:16",
+      "arp_count": 6,
+      "unique_senders": 4,
+      "unique_targets": 5,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.2512211799621582,
+      "variance_interval": 2.9441395262268317,
+      "interval_count": 5,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:37:52",
+      "arp_count": 5665,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5663,
+      "broadcast_ratio": 0.9996469549867608,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.000176522506619594,
+      "mean_interval": 0.0017340257342925852,
+      "variance_interval": 1.1697062219734414e-05,
+      "interval_count": 5664,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:14:42",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.19757294654846191,
+      "variance_interval": 0.038815868219955973,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:32:19",
+      "arp_count": 5086,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5082,
+      "broadcast_ratio": 0.9992135273299253,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00019661816751867872,
+      "mean_interval": 0.0018773819727414712,
+      "variance_interval": 6.571682239352091e-08,
+      "interval_count": 5085,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:03:49",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.603901743888855,
+      "variance_interval": 0.41779891464686614,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:11:06",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.533999800682068,
+      "variance_interval": 6.413208009893324,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:12:59",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:00:43",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:08:12",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.15888655185699463,
+      "variance_interval": 0.025126128545721826,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:10:05",
+      "arp_count": 5,
+      "unique_senders": 4,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.1568304300308228,
+      "variance_interval": 3.3722700783968804,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:11:47",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.29378676414489746,
+      "variance_interval": 0.08610891337070825,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:19:04",
+      "arp_count": 5731,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5729,
+      "broadcast_ratio": 0.9996510207642645,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017122850784248498,
+      "variance_interval": 1.0387546677260317e-05,
+      "interval_count": 5730,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:19:15",
+      "arp_count": 5593,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5591,
+      "broadcast_ratio": 0.9996424101555516,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.001755325110344075,
+      "variance_interval": 3.707630982316418e-05,
+      "interval_count": 5592,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:33:43",
+      "arp_count": 5633,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5628,
+      "broadcast_ratio": 0.9991123735132257,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017752529735487306,
+      "mean_interval": 0.001750514546239918,
+      "variance_interval": 3.277672212339189e-05,
+      "interval_count": 5632,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:25:00",
+      "arp_count": 5573,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 5573,
+      "broadcast_ratio": 1.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017624304008757735,
+      "variance_interval": 3.84271220664937e-05,
+      "interval_count": 5572,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:38:28",
+      "arp_count": 5645,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5641,
+      "broadcast_ratio": 0.9992914083259522,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.0001771479185119575,
+      "mean_interval": 0.001741038789823493,
+      "variance_interval": 3.8425633330134314e-05,
+      "interval_count": 5644,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:36:53",
+      "arp_count": 5645,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 5645,
+      "broadcast_ratio": 1.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017400213710641625,
+      "variance_interval": 2.268937264600635e-05,
+      "interval_count": 5644,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:10:56",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.17351698875427246,
+      "variance_interval": 0.058976505172608995,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:11:58",
+      "arp_count": 2,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0011534690856933594,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:07:22",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.7248232960700989,
+      "variance_interval": 3.086572731485443,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:21:50",
+      "arp_count": 5627,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5621,
+      "broadcast_ratio": 0.9989337124577928,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017771459036786921,
+      "mean_interval": 0.0017446454970640854,
+      "variance_interval": 1.7115130325501667e-05,
+      "interval_count": 5626,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:01:34",
+      "arp_count": 7,
+      "unique_senders": 4,
+      "unique_targets": 5,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.8096139033635458,
+      "variance_interval": 0.7206312073943654,
+      "interval_count": 6,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:19:27",
+      "arp_count": 5587,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 5587,
+      "broadcast_ratio": 1.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017575862541704078,
+      "variance_interval": 3.664528836059642e-05,
+      "interval_count": 5586,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:24:48",
+      "arp_count": 5591,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5589,
+      "broadcast_ratio": 0.9996422822393132,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017557380024563647,
+      "variance_interval": 3.7802619743327364e-05,
+      "interval_count": 5590,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:16:03",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:20:15",
+      "arp_count": 5611,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5609,
+      "broadcast_ratio": 0.9996435572981643,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.001749792625984831,
+      "variance_interval": 3.425719083259014e-05,
+      "interval_count": 5610,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:01:56",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.6120786666870117,
+      "variance_interval": 0.37419825397597606,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 17:59:22",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:10:36",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 3.142648696899414,
+      "variance_interval": 9.873623070775977,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:29:21",
+      "arp_count": 5646,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5644,
+      "broadcast_ratio": 0.9996457669146298,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017389321559503925,
+      "variance_interval": 2.2099373277660737e-05,
+      "interval_count": 5645,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:20:38",
+      "arp_count": 5616,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5611,
+      "broadcast_ratio": 0.9991096866096866,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.00035612535612535614,
+      "mean_interval": 0.0017480037515968058,
+      "variance_interval": 3.12533150526348e-05,
+      "interval_count": 5615,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:32:43",
+      "arp_count": 5592,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5588,
+      "broadcast_ratio": 0.9992846924177397,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.000178826895565093,
+      "mean_interval": 0.0017558369306476657,
+      "variance_interval": 2.6655662365909108e-05,
+      "interval_count": 5591,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:30:56",
+      "arp_count": 5648,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5643,
+      "broadcast_ratio": 0.9991147308781869,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017705382436260624,
+      "mean_interval": 0.0017383679977154888,
+      "variance_interval": 1.3965814928054689e-05,
+      "interval_count": 5647,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:26:11",
+      "arp_count": 5532,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5525,
+      "broadcast_ratio": 0.9987346348517715,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00018076644974692697,
+      "mean_interval": 0.0017749778273049152,
+      "variance_interval": 3.756493016463783e-05,
+      "interval_count": 5531,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:26:47",
+      "arp_count": 5640,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5637,
+      "broadcast_ratio": 0.999468085106383,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.0001773049645390071,
+      "mean_interval": 0.0017413220352305442,
+      "variance_interval": 3.567970267528436e-05,
+      "interval_count": 5639,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:22:49",
+      "arp_count": 5560,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5557,
+      "broadcast_ratio": 0.9994604316546762,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017652549338782514,
+      "variance_interval": 1.3409436825123463e-05,
+      "interval_count": 5559,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:30:32",
+      "arp_count": 5618,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5617,
+      "broadcast_ratio": 0.9998220007119971,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017478691846084526,
+      "variance_interval": 1.5305817160758324e-05,
+      "interval_count": 5617,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:25:24",
+      "arp_count": 5574,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5568,
+      "broadcast_ratio": 0.9989235737351991,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.0001794043774668102,
+      "mean_interval": 0.0017601517486161569,
+      "variance_interval": 3.777839468550169e-05,
+      "interval_count": 5573,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:02:26",
+      "arp_count": 5,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.108406662940979,
+      "variance_interval": 0.011609189437947975,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:29:45",
+      "arp_count": 5632,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5628,
+      "broadcast_ratio": 0.9992897727272727,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.0001775568181818182,
+      "mean_interval": 0.0017439258858611795,
+      "variance_interval": 1.801726389944468e-05,
+      "interval_count": 5631,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:07:12",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.9603317975997925,
+      "variance_interval": 2.648901895819037,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:27:58",
+      "arp_count": 5617,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5613,
+      "broadcast_ratio": 0.9992878760904398,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017803097739006588,
+      "mean_interval": 0.001747693601157251,
+      "variance_interval": 2.606647569102569e-05,
+      "interval_count": 5616,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:28:10",
+      "arp_count": 5615,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5608,
+      "broadcast_ratio": 0.998753339269813,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017809439002671417,
+      "mean_interval": 0.0017482624556783004,
+      "variance_interval": 3.149151191227009e-05,
+      "interval_count": 5614,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:04:50",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.6810286045074463,
+      "variance_interval": 0.8620439849343882,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 17:59:52",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.644020676612854,
+      "variance_interval": 0.4143030410865691,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:28:33",
+      "arp_count": 5646,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5638,
+      "broadcast_ratio": 0.9985830676585193,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.00035423308537017357,
+      "mean_interval": 0.0017458079450419774,
+      "variance_interval": 2.807199106697783e-05,
+      "interval_count": 5645,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:29:33",
+      "arp_count": 5646,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5641,
+      "broadcast_ratio": 0.9991144172865746,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.00035423308537017357,
+      "mean_interval": 0.0017392119651774161,
+      "variance_interval": 2.0778578326500404e-05,
+      "interval_count": 5645,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:15:53",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:05:30",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.4451078573862712,
+      "variance_interval": 0.39551032033463995,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:31:08",
+      "arp_count": 5656,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 5649,
+      "broadcast_ratio": 0.9987623762376238,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.001735460979552737,
+      "variance_interval": 1.0570138764619597e-05,
+      "interval_count": 5655,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:32:31",
+      "arp_count": 5624,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 5618,
+      "broadcast_ratio": 0.9989331436699858,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017780938833570413,
+      "mean_interval": 0.0017456801022877795,
+      "variance_interval": 3.625104917402924e-05,
+      "interval_count": 5623,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:09:04",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.954021771748861,
+      "variance_interval": 12.197399358701444,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:02:06",
+      "arp_count": 4,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.5598637262980143,
+      "variance_interval": 0.17327148616801777,
+      "interval_count": 3,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:06:31",
+      "arp_count": 7,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.9344125191370646,
+      "variance_interval": 1.2691294375742819,
+      "interval_count": 6,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:04:20",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.02370905876159668,
+      "variance_interval": 0.0005117813655033387,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:04:30",
+      "arp_count": 5,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.44425612688064575,
+      "variance_interval": 0.3705456290676459,
+      "interval_count": 4,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:23:37",
+      "arp_count": 5579,
+      "unique_senders": 3,
+      "unique_targets": 4,
+      "broadcast_count": 5573,
+      "broadcast_ratio": 0.9989245384477505,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.000358487184083169,
+      "mean_interval": 0.0017582536299368008,
+      "variance_interval": 1.4075666617410711e-05,
+      "interval_count": 5578,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:21:38",
+      "arp_count": 5607,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5603,
+      "broadcast_ratio": 0.9992866060281791,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017834849295523454,
+      "mean_interval": 0.0017509187837179499,
+      "variance_interval": 1.901925467508927e-05,
+      "interval_count": 5606,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:09:24",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:15:23",
+      "arp_count": 2,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.9999971389770508,
+      "variance_interval": 0.0,
+      "interval_count": 1,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:20:50",
+      "arp_count": 5593,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5588,
+      "broadcast_ratio": 0.9991060253888789,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017879492222420883,
+      "mean_interval": 0.0017560670986366544,
+      "variance_interval": 2.6999380105211104e-05,
+      "interval_count": 5592,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:21:26",
+      "arp_count": 5545,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5541,
+      "broadcast_ratio": 0.9992786293958521,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00018034265103697024,
+      "mean_interval": 0.0017946804584706845,
+      "variance_interval": 2.652945986249952e-05,
+      "interval_count": 5544,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:03:59",
+      "arp_count": 0,
+      "unique_senders": 0,
+      "unique_targets": 0,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:27:22",
+      "arp_count": 5648,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5643,
+      "broadcast_ratio": 0.9991147308781869,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017705382436260624,
+      "mean_interval": 0.0017380631242322779,
+      "variance_interval": 3.0966339684181155e-05,
+      "interval_count": 5647,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:04:40",
+      "arp_count": 3,
+      "unique_senders": 3,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 3.4476994276046753,
+      "variance_interval": 11.880879713839946,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:09:54",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.8893229961395264,
+      "variance_interval": 0.7903242827487702,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:06:21",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:05:51",
+      "arp_count": 6,
+      "unique_senders": 4,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.7564638137817383,
+      "variance_interval": 5.811596284553852,
+      "interval_count": 5,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:10:25",
+      "arp_count": 11,
+      "unique_senders": 5,
+      "unique_targets": 4,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.45846283435821533,
+      "variance_interval": 1.3559867517586013,
+      "interval_count": 10,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:35:06",
+      "arp_count": 5620,
+      "unique_senders": 3,
+      "unique_targets": 2,
+      "broadcast_count": 5615,
+      "broadcast_ratio": 0.9991103202846975,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017502385540181663,
+      "variance_interval": 2.6879027168442654e-05,
+      "interval_count": 5619,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:31:20",
+      "arp_count": 5517,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5514,
+      "broadcast_ratio": 0.9994562262098967,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017302866168779425,
+      "variance_interval": 9.339222289381819e-06,
+      "interval_count": 5516,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:10:15",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 1.1265183687210083,
+      "variance_interval": 1.2682251263829727,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:27:46",
+      "arp_count": 5644,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5639,
+      "broadcast_ratio": 0.9991141034727143,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017717930545712261,
+      "mean_interval": 0.0017424092401791482,
+      "variance_interval": 2.2826389079003592e-05,
+      "interval_count": 5643,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:13:51",
+      "arp_count": 1,
+      "unique_senders": 1,
+      "unique_targets": 1,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:36:05",
+      "arp_count": 5662,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5657,
+      "broadcast_ratio": 0.9991169198163193,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017661603673613564,
+      "mean_interval": 0.001734330110426948,
+      "variance_interval": 2.3601283497370954e-05,
+      "interval_count": 5661,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:23:48",
+      "arp_count": 5585,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5584,
+      "broadcast_ratio": 0.9998209489704566,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.0017686366266370845,
+      "variance_interval": 1.9283576819521426e-05,
+      "interval_count": 5584,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:28:22",
+      "arp_count": 5637,
+      "unique_senders": 2,
+      "unique_targets": 2,
+      "broadcast_count": 5634,
+      "broadcast_ratio": 0.9994678020223523,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 0.00174213399101945,
+      "variance_interval": 2.6829172367952312e-05,
+      "interval_count": 5636,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:13:09",
+      "arp_count": 0,
+      "unique_senders": 0,
+      "unique_targets": 0,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0,
+      "mean_interval": 0.0,
+      "variance_interval": 0.0,
+      "interval_count": 0,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:00:12",
+      "arp_count": 3,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 0,
+      "broadcast_ratio": 0.0,
+      "mac_conflict_count": 0,
+      "mac_conflict_ratio": 0.0,
+      "mean_interval": 2.6594457626342773,
+      "variance_interval": 7.070685043045671,
+      "interval_count": 2,
+      "label": "Normal"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:26:23",
+      "arp_count": 5488,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5486,
+      "broadcast_ratio": 0.9996355685131195,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00018221574344023323,
+      "mean_interval": 0.0017886564165424384,
+      "variance_interval": 1.5470405508559822e-05,
+      "interval_count": 5487,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:31:55",
+      "arp_count": 5630,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5628,
+      "broadcast_ratio": 0.9996447602131439,
+      "mac_conflict_count": 1,
+      "mac_conflict_ratio": 0.00017761989342806393,
+      "mean_interval": 0.0017440042480479593,
+      "variance_interval": 3.787399977635587e-05,
+      "interval_count": 5629,
+      "label": "ARP_Flood"
+    }
+  },
+  {
+    "features": {
+      "timestamp": "2025-11-24 18:22:13",
+      "arp_count": 5618,
+      "unique_senders": 2,
+      "unique_targets": 3,
+      "broadcast_count": 5615,
+      "broadcast_ratio": 0.9994660021359915,
+      "mac_conflict_count": 2,
+      "mac_conflict_ratio": 0.000355998576005696,
+      "mean_interval": 0.001747478427720575,
+      "variance_interval": 8.938613890228309e-06,
+      "interval_count": 5617,
+      "label": "ARP_Flood"
+    }
+  }
+]

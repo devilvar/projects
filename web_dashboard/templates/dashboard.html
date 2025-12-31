@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1 style="font-size: 3em; margin-bottom: 0;">Hello Friend.</h1>
+    <p style="color: #666; margin-top: 0;">System initialization complete.</p>
+    <hr style="border-color: #333;">
+
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div style="background: #1a1a1a; padding: 20px; flex: 1; min-width: 300px; border: 1px solid #333;">
+            <h3>Network Status</h3>
+            <div style="font-size: 2em; color: #00ff41;">● ONLINE</div>
+            <p><strong>Interface:</strong> eth0 (Promiscuous Mode)</p>
+            <p><strong>Gateway:</strong> <a href="http://Pi.local" style="color:#00ff41;">http://Pi.local</a></p>
+        </div>
+
+        <div style="background: #1a1a1a; padding: 20px; flex: 1; min-width: 300px; border: 1px solid #333;">
+            <h3>Active Engines</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li>✓ ARP Inspection Cluster</li>
+                <li>✓ DDoS Detection Model (ML)</li>
+                <li>✓ Packet Capture Engine</li>
+                <li>✓ Web Dashboard Service</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>💾 Data Acquisition Unit</h1>
+    <p>Capture raw network traffic (.pcap) for forensic analysis.</p>
+    
+    <div style="text-align: center; margin-top: 50px; background: #1a1a1a; padding: 50px; border-radius: 10px;">
+        
+        <h3>Current Status: 
+            <span style="color: {{ 'red' if status == 'RUNNING' else '#666' }}">
+                {{ "🔴 RECORDING" if status == 'RUNNING' else "⚫ STOPPED" }}
+            </span>
+        </h3>
+        
+        <br>
+
+        <form method="post">
+            {% if status == "STOPPED" %}
+                <button name="action" value="start" style="font-size: 24px; padding: 20px 50px; border-radius: 50px; background: #00ff41; color: black; box-shadow: 0 0 20px #00ff41;">
+                    START CAPTURE
+                </button>
+            {% else %}
+                <button name="action" value="stop" style="font-size: 24px; padding: 20px 50px; border-radius: 50px; background: #ff3333; color: white; box-shadow: 0 0 20px #ff3333;">
+                    STOP CAPTURE
+                </button>
+            {% endif %}
+        </form>
+
+        <br><br>
+        <hr style="border-color: #333; width: 50%;">
+        <br>
+
+        {% if file_exists and status == "STOPPED" %}
+            <h3 style="color: white;">Evidence File Ready</h3>
+            <p>File: <code>Basic_data/logs/web_session.pcap</code></p>
+            <form method="post" style="display: flex; gap: 20px; justify-content: center;">
+                <button name="action" value="download">⬇️ Download PCAP</button>
+                <button name="action" value="delete" class="danger">🗑️ Delete Evidence</button>
+            </form>
+        {% elif status == "STOPPED" %}
+            <p style="color: #666;">No recording session active.</p>
+        {% endif %}
+
+    </div>
+{% endblock %}

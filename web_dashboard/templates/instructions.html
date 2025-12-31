@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>📖 Incident Response Manual</h1>
+    
+    <div style="background: #1a1a1a; padding: 20px; border-left: 5px solid #ff3333; margin-bottom: 20px;">
+        <h3>🚨 CASE 1: DDoS Attack Detected</h3>
+        <p><strong>Signs:</strong> High traffic volume, slow network, Alert logs flooding.</p>
+        <p><strong>Action:</strong></p>
+        <ol>
+            <li>Go to <strong>IAM Rules</strong> > Router Details.</li>
+            <li>Note the attacking IP from the <strong>Alerts</strong> page.</li>
+            <li>Block the IP in your physical router settings.</li>
+        </ol>
+    </div>
+
+    <div style="background: #1a1a1a; padding: 20px; border-left: 5px solid orange; margin-bottom: 20px;">
+        <h3>🕵️ CASE 2: ARP Spoofing (Man-in-the-Middle)</h3>
+        <p><strong>Signs:</strong> Unknown MAC address claiming to be Gateway.</p>
+        <p><strong>Action:</strong></p>
+        <ol>
+            <li>Identify the fake MAC in <strong>Network Users</strong> table.</li>
+            <li>Physically disconnect the device with that MAC.</li>
+            <li>Add your real Gateway MAC to <strong>Trusted Users</strong>.</li>
+        </ol>
+    </div>
+{% endblock %}

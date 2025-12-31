@@ -1,0 +1,56 @@
+[
+    {
+        "timestamp": "2025-12-30 18:19:01",
+        "attack_type": "Unknown_Device_Detected",
+        "source_info": "MAC: 00:00:00:00:00:00",
+        "details": {}
+    },
+    {
+        "timestamp": "2025-12-30 18:19:23",
+        "attack_type": "Insecure_Protocol_Usage",
+        "source_info": "10.228.223.5 \u2192 10.228.223.104",
+        "details": {
+            "Protocol": "HTTP",
+            "Transport": "TCP",
+            "Port": 80,
+            "Risk": "Unencrypted web traffic",
+            "Flow_Type": "Internal\u2192Internal"
+        }
+    },
+    {
+        "timestamp": "2025-12-30 18:23:34",
+        "attack_type": "Unknown_Device_Detected",
+        "source_info": "MAC: 00:00:00:00:00:00",
+        "details": {}
+    },
+    {
+        "timestamp": "2025-12-30 18:23:58",
+        "attack_type": "Insecure_Protocol_Usage",
+        "source_info": "10.228.223.5 \u2192 10.228.223.104",
+        "details": {
+            "Protocol": "HTTP",
+            "Transport": "TCP",
+            "Port": 80,
+            "Risk": "Unencrypted web traffic",
+            "Flow_Type": "Internal\u2192Internal"
+        }
+    },
+    {
+        "timestamp": "2025-12-30 18:26:32",
+        "attack_type": "Unknown_Device_Detected",
+        "source_info": "MAC: 00:00:00:00:00:00",
+        "details": {}
+    },
+    {
+        "timestamp": "2025-12-30 18:26:44",
+        "attack_type": "Insecure_Protocol_Usage",
+        "source_info": "10.228.223.5 \u2192 10.228.223.104",
+        "details": {
+            "Protocol": "HTTP",
+            "Transport": "TCP",
+            "Port": 80,
+            "Risk": "Unencrypted web traffic",
+            "Flow_Type": "Internal\u2192Internal"
+        }
+    }
+]

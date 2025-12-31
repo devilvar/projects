@@ -1,0 +1,12 @@
+[
+  "arp_count",
+  "unique_senders",
+  "unique_targets",
+  "broadcast_count",
+  "broadcast_ratio",
+  "mac_conflict_count",
+  "mac_conflict_ratio",
+  "mean_interval",
+  "variance_interval",
+  "interval_count"
+]

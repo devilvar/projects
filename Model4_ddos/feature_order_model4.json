@@ -1,0 +1,16 @@
+[
+    "fin_count",
+    "rst_count",
+    "null_flag_count",
+    "xmas_flag_count",
+    "ttl_mean",
+    "ttl_std",
+    "inter_arrival_mean",
+    "inter_arrival_std",
+    "src_port_entropy",
+    "incomplete_handshake_ratio",
+    "pkt_rate_variation",
+    "flow_count",
+    "pkt_count",
+    "byte_count"
+]

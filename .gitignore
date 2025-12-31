@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+*.pcap
+logs/
+pcap/
+venv/
+.env
+.idea/
+.vscode/

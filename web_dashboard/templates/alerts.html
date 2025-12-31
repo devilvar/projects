@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2>⚠️ Intrusion Alerts Log</h2>
+    <p>Real-time log from <code>logs/alerts.json</code></p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Alert Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for alert in alerts %}
+            <tr>
+                <td style="color: #ff5555;">{{ alert }}</td>
+            </tr>
+            {% else %}
+            <tr><td>No alerts recorded yet.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

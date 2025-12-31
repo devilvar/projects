@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>⚙️ User Settings</h1>
+
+    {% if msg %}
+        <div style="padding: 15px; margin-bottom: 20px; border: 1px solid {{ msg_type }}; color: {{ msg_type }}; background: #1a1a1a;">
+            {{ msg }}
+        </div>
+    {% endif %}
+
+    <div style="background: #1a1a1a; padding: 30px; border-radius: 8px; max-width: 600px;">
+        <form method="post">
+            
+            <h3>1. User Profile</h3>
+            <p style="color: #666; font-size: 0.9em;">Change your login username.</p>
+            <label>Username:</label><br>
+            <input type="text" name="username" value="{{ user }}" required>
+            <br><br>
+
+            <h3>2. Notification Settings</h3>
+            <p style="color: #666; font-size: 0.9em;">Email used for alerts (reads from email.json).</p>
+            <label>Email ID:</label><br>
+            <input type="email" name="email" value="{{ email }}" placeholder="admin@example.com">
+            <br><br>
+
+            <h3>3. Change Password</h3>
+            <p style="color: #666; font-size: 0.9em;">Leave blank if you don't want to change it.</p>
+            <label>New Password:</label><br>
+            <input type="password" name="new_password" placeholder="New Password">
+            <br><br>
+
+            <hr style="border-color: #333; margin: 30px 0;">
+
+            <h3>🔒 Verification</h3>
+            <p style="color: #ff5555; font-size: 0.9em;">Required to save ANY changes above.</p>
+            <label>Current Password:</label><br>
+            <input type="password" name="current_password" placeholder="Required" required>
+            <br><br>
+
+            <button type="submit" style="padding: 15px 30px; font-size: 16px;">SAVE CHANGES</button>
+        </form>
+    </div>
+{% endblock %}

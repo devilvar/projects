@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>🛡️ Identity & Access Management (IAM)</h1>
+
+    <!-- 1. Network Users -->
+    <div style="margin-bottom: 40px;">
+        <h3>1. Network Users (Monitor)</h3>
+        <table>
+            <thead><tr><th>MAC Address</th><th>First Seen</th><th>Last Seen</th></tr></thead>
+            <tbody>
+                <!-- FIX: Check if users is actually a Dictionary (Mapping) before looping -->
+                {% if users is mapping %}
+                    {% for mac, details in users.items() %}
+                    <tr>
+                        <td style="color: #00ff41; font-weight: bold;">{{ mac }}</td>
+                        <td>{{ details.first_seen }}</td>
+                        <td>{{ details.last_seen }}</td>
+                    </tr>
+                    {% else %}
+                    <tr><td colspan="3">No users detected yet.</td></tr>
+                    {% endfor %}
+                {% else %}
+                    <!-- If users is a List (e.g. empty []), handle it gracefully -->
+                    <tr><td colspan="3" style="color: #888;">Waiting for network scan data...</td></tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 2. Router Config -->
+    <div style="background: #222; padding: 20px; margin-bottom: 40px; border: 1px solid #333;">
+        <h3>2. Router Configuration</h3>
+        <form method="post">
+            <input type="hidden" name="action" value="update_router">
+            <label>SSID:</label>
+            <input type="text" name="ssid" value="{{ router.ssid }}">
+
+            <label>MAC:</label>
+            <input type="text" name="mac" value="{{ router.mac or router.MAC or router.bssid }}">
+
+            <label>Channel:</label>
+            <input type="text" name="channel" value="{{ router.channel }}" style="width: 50px;">
+
+            <button type="submit">Update Router</button>
+        </form>
+    </div>
+
+    <div style="display: flex; gap: 20px;">
+        <!-- 3. Restricted -->
+        <div style="flex: 1;">
+            <h3>3. Restricted Websites</h3>
+            <ul style="background: #1a1a1a; padding: 20px; border: 1px solid #333; min-height: 100px;">
+                {% for site in restricted %}
+                <li style="color: #ff5555;">{{ site }}</li>
+                {% endfor %}
+            </ul>
+            <form method="post">
+                <input type="hidden" name="action" value="add_restrict">
+                <input type="text" name="site" placeholder="example.com">
+                <button type="submit" class="danger">Block Site</button>
+            </form>
+        </div>
+
+        <!-- 4. Trusted -->
+        <div style="flex: 1;">
+            <h3>4. Trusted Users</h3>
+            <table>
+                <thead><tr><th>MAC</th><th>Added</th><th>Action</th></tr></thead>
+                <tbody>
+                    {% for u in trusted %}
+                    <tr>
+                        {% if u is mapping %}
+                            <td>{{ u.mac }}</td>
+                            <td>{{ u.added }}</td>
+                            <td>
+                                <form method="post" style="margin:0;">
+                                    <input type="hidden" name="action" value="remove_trusted">
+                                    <input type="hidden" name="mac_to_remove" value="{{ u.mac }}">
+                                    <button type="submit" style="background: #ff3333; color: white; border: none; padding: 5px 10px; font-size: 12px; cursor: pointer;">REMOVE</button>
+                                </form>
+                            </td>
+                        {% else %}
+                            <td>{{ u }}</td>
+                            <td>Manual</td>
+                            <td>
+                                <form method="post" style="margin:0;">
+                                    <input type="hidden" name="action" value="remove_trusted">
+                                    <input type="hidden" name="mac_to_remove" value="{{ u }}">
+                                    <button type="submit" style="background: #ff3333; color: white; border: none; padding: 5px 10px; font-size: 12px; cursor: pointer;">REMOVE</button>
+                                </form>
+                            </td>
+                        {% endif %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <form method="post" style="margin-top: 10px;">
+                <input type="hidden" name="action" value="add_trusted">
+                <input type="text" name="mac" placeholder="AA:BB:CC:DD:EE:FF">
+                <button type="submit">Add Trusted</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

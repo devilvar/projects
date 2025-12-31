@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIDS Console</title>
+    <style>
+        /* DARK THEME VARS */
+        :root { --bg: #0f0f0f; --panel: #1a1a1a; --text: #e0e0e0; --accent: #00ff41; --danger: #ff3333; }
+        
+        body { background-color: var(--bg); color: var(--text); font-family: 'Courier New', monospace; margin: 0; transition: margin-left .3s; }
+        
+        /* SIDEBAR */
+        .sidebar { height: 100%; width: 0; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden; transition: 0.3s; padding-top: 60px; border-right: 1px solid #333; box-shadow: 2px 0 5px rgba(0,0,0,0.5); }
+        .sidebar a { padding: 15px 25px; text-decoration: none; font-size: 18px; color: #888; display: block; transition: 0.2s; }
+        .sidebar a:hover { color: var(--accent); background: #222; border-left: 3px solid var(--accent); }
+        .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
+
+        /* MAIN CONTENT */
+        #main { padding: 20px; }
+        
+        /* TOP HEADER BAR */
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .openbtn { font-size: 20px; cursor: pointer; background-color: var(--panel); color: var(--accent); padding: 10px 15px; border: 1px solid #333; border-radius: 4px; }
+        .user-profile { font-weight: bold; color: var(--accent); text-decoration: none; border: 1px solid var(--accent); padding: 8px 15px; border-radius: 20px; transition: 0.3s; }
+        .user-profile:hover { background: var(--accent); color: black; }
+
+        /* COMMON ELEMENTS */
+        h1, h2, h3 { color: var(--accent); border-bottom: 1px solid #333; padding-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; background: var(--panel); margin-bottom: 20px; }
+        th, td { padding: 12px; border-bottom: 1px solid #333; text-align: left; }
+        th { background-color: #222; color: var(--accent); }
+        input[type=text], input[type=password], input[type=email] { background: #000; border: 1px solid #444; color: white; padding: 8px; width: 250px; }
+        button { background: var(--accent); color: black; border: none; padding: 8px 16px; font-weight: bold; cursor: pointer; }
+        button.danger { background: var(--danger); color: white; }
+    </style>
+    <script>
+        function toggleNav() {
+            var sb = document.getElementById("mySidebar");
+            if (sb.style.width === "250px") {
+                sb.style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            } else {
+                sb.style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+        <a href="{{ url_for('dashboard') }}">📊 Dashboard</a>
+        <a href="{{ url_for('alerts') }}">⚠️ Alerts Log</a>
+        <a href="{{ url_for('iam') }}">🛡️ IAM Rules</a>
+        <a href="{{ url_for('instructions') }}">📖 Instructions</a>
+        <a href="{{ url_for('data') }}">💾 Data Capture</a>
+        <a href="{{ url_for('settings') }}">⚙️ Settings</a>
+        <a href="{{ url_for('logout') }}" style="color: #ff5555; margin-top: 50px;">Log Out</a>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <button class="openbtn" onclick="toggleNav()">☰ MENU</button>
+            
+            <a href="{{ url_for('settings') }}" class="user-profile">
+                👤 {{ session.get('user', 'Admin') }}
+            </a>
+        </div>
+
+        {% block content %}{% endblock %}
+    </div>
+
+</body>
+</html>
