@@ -7,8 +7,8 @@ import json
 
 # ================= EMAIL CONFIG =================
 
-EMAIL_ADDRESS = "nidsalerting@gmail.com"
-EMAIL_APP_PASSWORD = "jubmsrigvdgsgiou"
+EMAIL_ADDRESS = "Uses_your_mail"
+EMAIL_APP_PASSWORD = "***********"
 EMAIL_RECEIVER = "varunkumarvenigalla@gmail.com"
 
 SMTP_SERVER = "smtp.gmail.com"
@@ -16,8 +16,8 @@ SMTP_PORT = 465
 
 # ================= TELEGRAM CONFIG =================
 
-TELEGRAM_BOT_TOKEN = "8212160356:AAFOmVFbJf_No0GS4G_Y-lPMYX-II_7g7gI"
-TELEGRAM_CHAT_ID = "5510249136"
+TELEGRAM_BOT_TOKEN = "Use_your_api"
+TELEGRAM_CHAT_ID = "Use_your_id"
 
 # ================= LCD CONFIG =================
 
