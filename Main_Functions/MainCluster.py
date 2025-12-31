@@ -3,7 +3,7 @@ import sys
 import os
 import time
 import subprocess
-import threading                      # ✅ ADDED
+import threading                      
 from RPLCD.i2c import CharLCD
 
 # ================= PATH SETUP =================
@@ -126,7 +126,7 @@ def launch_subsystems():
             print(f"  {name} failed: {e}")
 
 # ================= WEB DASHBOARD =================
-# ✅ ADDED (threaded, non-blocking, isolated)
+
 
 def start_web_dashboard():
     try:
@@ -214,7 +214,7 @@ def main():
     lcd_print("Loading Models", "Please Wait")
     launch_subsystems()
 
-    # ✅ START WEB DASHBOARD IN BACKGROUND
+    #  START WEB DASHBOARD IN BACKGROUND
     dashboard_thread = threading.Thread(
         target=start_web_dashboard,
         daemon=True
