@@ -1,4 +1,4 @@
-# IoT-Based Network Intrusion Detection System (NIDS) with Active Response
+# IoT && AI -Based Network Intrusion Detection System (NIDS) with Active Response
 
 ## 📌 Project Overview
 This project is a lightweight, embedded Network Intrusion Detection System (NIDS) built on the Raspberry Pi. Unlike traditional passive systems that only log threats, this system is designed to detect network anomalies using Machine Learning and perform **active responses** (such as deauthentication or firewall blocking) to neutralize threats in real-time.
